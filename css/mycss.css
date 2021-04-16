@@ -25,6 +25,8 @@ html, body {
     overflow-x: hidden !important;
 }
 
+
+
 .conhead{
     position: absolute;
     top: 30%;
@@ -92,7 +94,7 @@ html, body {
 }
 
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
     body {
      overflow-x: hidden !important;
     }
@@ -100,10 +102,6 @@ html, body {
     .conhead {
         margin-left: 5%;
         top: 30%;
-    }
-    .masthead {
-        background-position-x: -35em !important;
-
     }
 
     .gabname{
@@ -114,6 +112,11 @@ html, body {
 
     .nextdiv {
         left: 44%;
+    }
+
+    .masthead {
+        background-image: url("../assets/img/header-small.jpg") !important;
+
     }
     
 }
