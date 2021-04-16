@@ -15,11 +15,13 @@
     src: url(../font/Montserrat-ExtraBold.ttf);
 }
 
-body,html {
+html, body {
+    position: relative;
     overflow-x: hidden !important;
 }
 
 #page-top{
+    position: relative;
     overflow-x: hidden !important;
 }
 
@@ -100,8 +102,8 @@ body,html {
         top: 30%;
     }
     .masthead {
-        /* background-position-x: -35em !important; */
-        background-position: right;
+        background-position-x: -35em !important;
+
     }
 
     .gabname{
