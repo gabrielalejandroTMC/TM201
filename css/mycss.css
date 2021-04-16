@@ -79,9 +79,9 @@
 
 @media (max-width: 767px){
     body {
-        overflow-x: hidden !important;
-   }
-   
+     overflow-x: hidden !important;
+    }
+
     .conhead {
         zoom: 70%;
         margin-left: 5%;
@@ -91,4 +91,19 @@
         background-position-x: -35em !important;
     }
     
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        body {
+        overflow-x: hidden !important;
+       }
+   
+       .conhead {
+           zoom: 70%;
+           margin-left: 5%;
+           top: 35%;
+       }
+       .masthead {
+           background-position-x: -40em !important;
+       }
 }
