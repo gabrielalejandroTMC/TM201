@@ -67,6 +67,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+  overflow-x: hidden!important;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -9695,7 +9696,7 @@ button.bg-dark:focus {
   .text-sm-center {
     text-align: center !important;
   }
- 
+
 }
 @media (min-width: 768px) {
   .text-md-left {
