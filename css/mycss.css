@@ -78,13 +78,17 @@
 
 
 @media (max-width: 767px){
+    body {
+        overflow-x: hidden !important;
+   }
+   
     .conhead {
         zoom: 70%;
         margin-left: 5%;
         top: 35%;
     }
     .masthead {
-        background-position-x: -40em !important;
+        background-position-x: -35em !important;
     }
     
 }
