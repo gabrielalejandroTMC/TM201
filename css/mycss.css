@@ -115,11 +115,9 @@ html, body {
     }
 
     .masthead {
-        /* background-image: url("../assets/img/header-small.jpg") !important; */
-        /* max-width: 100%;
-        max-height: 100vh; */
-        background-position-x: -44em !important;
-        background-attachment: scroll;
+        background-image: url("../assets/img/header-small.jpg") !important;
+        max-width: 100%;
+        max-height: 100vh;
     }
     
 }
