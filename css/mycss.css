@@ -101,7 +101,7 @@ html, body {
 
     .conhead {
         margin-left: 5%;
-        top: 30%;
+        top: 40%;
     } 
 
     .gabname{
@@ -115,9 +115,8 @@ html, body {
     }
 
     .masthead {
-        background-image: url("../assets/img/header-small.jpg") !important ;
-        background-position-x: right !important;
-        background-size: cover !important;
+        /* background-image: url("../assets/img/header-small.jpg") !important ; */
+        background-position-x: -44em !important;
     }
     
 }
