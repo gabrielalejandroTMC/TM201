@@ -115,8 +115,8 @@ html, body {
     }
 
     .masthead {
-        /* background-image: url("../assets/img/header-small.jpg") !important ; */
-        background-position-x: -44em !important;
+        background-image: url("../assets/img/header-small.jpg") !important;
+        /* background-position-x: -44em !important; */
     }
     
 }
