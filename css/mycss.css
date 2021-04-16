@@ -1,0 +1,90 @@
+@font-face {
+  font-family: MonEbold;
+  src: url(../font/Montserrat-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: MonLight;
+    src: url(../font/Montserrat-ExtraLight.ttf);
+}
+
+
+.conhead{
+    position: absolute;
+    top: 30%;
+    margin-left: 15%;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;   
+}
+
+.gabname{
+    font-size: 4.5rem;
+    font-family: MonEbold;
+}
+
+.subtopic{
+    font-family: MonLight;
+
+}
+
+.colorgold{
+    color: #c49b61;
+}
+
+.IamGab{
+    color: #c49b61;
+    font-family: MonLight;
+}
+
+.IamTech{
+    font-family: MonEbold;
+}
+
+.typed-cursor {
+    font-size: 2em;
+}
+
+.nextdiv{
+    position: absolute;
+    bottom: 5px;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(255, 255, 255, 0.10);
+    border-radius: 100%;
+    left:50%;
+}
+
+.nextbtn{
+    color: #c49b61;
+    font-family: MonLight;
+    display: grid;
+    place-content: center;
+
+}
+
+.timeline > li .timeline-image {
+    border: 4px solid #e9ecef;
+}
+
+
+@media (max-width: 767px){
+    .conhead {
+        zoom: 70%;
+        margin-left: 5%;
+        top: 35%;
+    }
+    .masthead {
+        background-position-x: -40em !important;
+    }
+    
+}
