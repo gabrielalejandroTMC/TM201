@@ -10,6 +10,19 @@
 }
 
 
+@font-face {
+    font-family: MonExBold;
+    src: url(../font/Montserrat-ExtraBold.ttf);
+}
+
+body,html {
+    overflow-x: hidden !important;
+}
+
+#page-top{
+    overflow-x: hidden !important;
+}
+
 .conhead{
     position: absolute;
     top: 30%;
@@ -83,27 +96,24 @@
     }
 
     .conhead {
-        zoom: 70%;
         margin-left: 5%;
-        top: 35%;
+        top: 30%;
     }
     .masthead {
-        background-position-x: -35em !important;
+        /* background-position-x: -35em !important; */
+        background-position: right;
+    }
+
+    .gabname{
+        font-size: 3em;
+        font-family: MonExBold;
+    }
+
+
+    .nextdiv {
+        left: 44%;
     }
     
 }
 
-/* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-        body {
-        overflow-x: hidden !important;
-       }
-   
-       .conhead {
-           zoom: 70%;
-           margin-left: 5%;
-           top: 35%;
-       }
-       .masthead {
-           background-position-x: -40em !important;
-       }
-} */
+
